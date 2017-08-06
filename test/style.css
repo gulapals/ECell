@@ -1,0 +1,113 @@
+*{
+	margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;
+}
+a{
+	text-decoration:none;
+}
+img{
+	max-width:100%;
+}
+
+body {
+	background: url("images/back.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FFF;
+	font-family: 'Boogaloo', sans-serif;
+	letter-spacing: 7px;
+	text-align: center;
+}
+
+body a {
+	transition: 0.5s all;
+	text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+}
+
+input::placeholder{
+	color: orange;
+}
+
+h1, h3 {
+    font-size: 50px;
+    font-family: Signika;
+    color: GoldenRod;
+    background: rgba(0,0,0,0.6);
+    letter-spacing: 7px;
+    margin: 65px auto;
+    width: 500px;
+}
+
+.content {
+    width: 30%;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="file"], select{
+	width: 84%;
+	padding: 15px 10px 15px;
+	font-size: 14px;
+	background: transparent;
+	border: 2px solid Coral;
+	outline: none;
+	margin-bottom: 26px;
+	color: orange;
+	font-style: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input[type="submit"] {
+	font-size: 16px;
+	padding: 10px 65px;
+	background-color: #537b35;
+	font-family: 'Quicksand', sans-serif;
+	color: #FFF;
+	border: none;
+	border-radius: 0px;
+	outline: none;
+	float:none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #537b35;
+}
+
+.btn p {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.btn p a {
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+}
+
+.btn p a span {
+	font-size: 18px;
+}
+
+.btn p a:hover {
+	color: #537b35;
+    border: 1px solid #537b35;
+}
